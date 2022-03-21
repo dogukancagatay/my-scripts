@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## References
+# - https://www.packer.io/docs/plugins
+
 declare -A PLUGINS
 
 PLUGINS["github.com/hashicorp/qemu"]="1.0.2"
